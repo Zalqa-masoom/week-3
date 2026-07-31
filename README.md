@@ -1,24 +1,18 @@
-# Week 3 Deliverables: FastAPI, Docker & CI/CD Pipeline
-
-This repository contains the deliverables for **Week 3**, focusing on containerization using Docker, implementing automated workflows, and refactoring scripts.
-
----
-
-## 🚀 Project Overview
-* **Framework:** FastAPI (`main.py`)
-* **Containerization:** Docker (`Dockerfile`)
-* **Dependencies:** Managed via `requirements.txt`
-* **Automation:** GitHub Actions CI/CD workflows (`.github/workflows/`)
-* **dockercompose.yml
-
----
-
-## 📁 Repository Structure
-```text
-week-3/
-├── .github/workflows/   # CI/CD pipeline configuration files
-├── Dockerfile           # Instructions for building the Docker container image
-├── main.py              # Core FastAPI application entry point
-├── requirements.txt     # Python package dependencies
-└── README.md            # Project documentation
-|___dockercompose.yml    #Multi-container orchestration setup
+# Week 3 Project
+<br>
+This repository contains the updated scripts and configuration files for Week 3.
+<br>
+## Updates & Additions<br>
+* **Bash Scripts:** Added robust error handling using `set -euo pipefail` in shell scripts (such as `backup.sh`) to ensure strict error checking and safe execution.<br>
+* **Docker Compose:** Added `docker-compose.yml` to manage multi-container Docker applications seamlessly alongside the existing `Dockerfile`.<br>
+<br>
+## Files Included<br>
+* `backup.sh` - Automated backup script with strict error handling (`set -euo pipefail`).<br>
+* `cleanup_tmp.sh` - Temporary file cleanup utility.<br>
+* `disk_usage.sh` - Disk usage monitoring script.<br>
+* `docker-compose.yml` - Configuration for multi-container orchestration.<br>
+* `Dockerfile` - Container definition for the application.<br>
+* `main.py` - Main application entry point.<br>
+* `my_log_counter.sh` - Script to count and analyze log entries.<br>
+* `my_log.txt` - Sample log data file.<br>
+* `requirements.txt` - Python dependencies list.<br>
