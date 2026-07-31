@@ -9,6 +9,7 @@ This repository contains the deliverables for **Week 3**, focusing on containeri
 * **Containerization:** Docker (`Dockerfile`)
 * **Dependencies:** Managed via `requirements.txt`
 * **Automation:** GitHub Actions CI/CD workflows (`.github/workflows/`)
+* **dockercompose.yml
 
 ---
 
@@ -20,3 +21,4 @@ week-3/
 ├── main.py              # Core FastAPI application entry point
 ├── requirements.txt     # Python package dependencies
 └── README.md            # Project documentation
+|___dockercompose.yml    #Multi-container orchestration setup
